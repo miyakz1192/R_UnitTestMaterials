@@ -2,7 +2,7 @@
 Description=Rokudenashi Game Server
 
 [Service]
-ExecStart=/home/miyakz/R_UnitTestMaterials/python_http_server.py
+ExecStart=/bin/bash -c "cd /home/miyakz/R_UnitTestMaterials/; ./python_http_server.py"
 Restart=always
 User=miyakz
 
