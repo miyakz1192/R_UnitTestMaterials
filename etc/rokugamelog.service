@@ -1,0 +1,12 @@
+[Unit]
+Description=Rokudenashi Game Log Server
+
+[Service]
+ExecStart=/home/miyakz/R_UnitTestMaterials/udp_log_server.py
+Restart=always
+User=miyakz
+
+[Install]
+WantedBy=multi-user.target
+
+
