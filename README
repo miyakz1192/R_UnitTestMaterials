@@ -1,0 +1,14 @@
+etc/initlal_log
+このログはユーザが新設された際にサーバに配置するログ。
+このログがないと、クライアントはサーバにデータをセーブできない(PlayerPrefsに貯まる)。
+プレイヤー名は変えること。
+ファイル名はlogに変名してcpすること。
+
+実行例:
+
+miyakz@unity:~/MyUnityProjects/R_UnitTestMaterials$ cat etc/initial_log 
+{"playerId": "souchan","records": []}
+miyakz@unity:~/MyUnityProjects/R_UnitTestMaterials$ cp etc/initial_log 7038eb77-2913-4615-9522-caeaa3271bcc/souchan/log
+miyakz@unity:~/MyUnityProjects/R_UnitTestMaterials$
+
+
